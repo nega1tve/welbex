@@ -15,6 +15,19 @@ body {
   line-height: 19px;
   color: #e4e5ea;
 
+  margin: 0 auto;
+
   width: 1440px;
   height: 980px;
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+    height: 1115px;
+
+    margin: 0 auto;
+
+    background: #0e1014;
+  }
 }

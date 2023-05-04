@@ -42,16 +42,94 @@
   align-items: center;
 }
 
-.menu-important p {
+#header-services {
+  position: absolute;
+  width: 54px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #e4e5ea;
 
-  display: inline-block;
-  margin-right: 30px;
+  color: #e4e5ea;
+  z-index: 1;
+}
+
+#header-widgets {
+  position: absolute;
+  width: 74px;
+  height: 19px;
+  left: 84px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* light text */
+
+  color: #e4e5ea;
+  z-index: 1;
+}
+
+#header-integrations {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 188px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+
+#header-cases {
+  position: absolute;
+  width: 51px;
+  height: 19px;
+  left: 313px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+
+#header-certifications {
+  position: absolute;
+  width: 109px;
+  height: 19px;
+  left: 394px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* light text */
+
+  color: #e4e5ea;
 }
 
 .number {
@@ -93,4 +171,138 @@
   height: 20px;
   left: 1122px;
   top: 13px;
+}
+
+@media (max-width: 320px) {
+  #header {
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .fix-header {
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+
+    background: #0e1014;
+    z-index: 1;
+  }
+
+  #header-services {
+    position: absolute;
+    width: 49px;
+    height: 15px;
+    left: 16px;
+    top: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #e4e5ea;
+  }
+
+  #header-widgets {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 81px;
+    top: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* light text */
+
+    color: #e4e5ea;
+  }
+
+  #header-integrations {
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 161px;
+    top: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #e4e5ea;
+  }
+
+  #header-cases {
+    position: absolute;
+    width: 44px;
+    height: 15px;
+    left: 260px;
+    top: 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* light text */
+
+    color: #e4e5ea;
+  }
+
+  /* Header top */
+
+  #logo {
+    position: absolute;
+    width: 129.33px;
+    height: 20px;
+    left: 0px;
+    top: 2px;
+  }
+  #telegram {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 176px;
+    top: 0px;
+  }
+  #viber {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 220px;
+    top: 0px;
+  }
+  #whatsapp {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 264px;
+    top: 0px;
+  }
+
+  .header-text {
+    display: none;
+  }
 }
