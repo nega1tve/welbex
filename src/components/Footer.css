@@ -26,23 +26,20 @@
   text-transform: uppercase;
 }
 
-.about-content {
+#partnership {
   position: absolute;
   width: 195px;
   height: 19px;
   left: 0px;
   top: 92px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #e4e5ea;
 }
-.about-content p {
-  margin-bottom: 10px;
+
+#vacancies {
+  position: absolute;
+  width: 75px;
+  height: 19px;
+  left: 0px;
+  top: 121px;
 }
 
 .menu {
@@ -69,44 +66,92 @@
   color: #656566;
 }
 
-.menu-content__left {
+.menu-content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+#costing {
   position: absolute;
   width: 144px;
   height: 19px;
   left: 293px;
   top: 92px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #e4e5ea;
 }
 
-.menu-content__left p {
-  margin-bottom: 10px;
+#services {
+  position: absolute;
+  width: 53px;
+  height: 19px;
+  left: 293px;
+  top: 121px;
 }
 
-.menu-content__right {
+#widgets-menu {
+  position: absolute;
+  width: 73px;
+  height: 19px;
+  left: 293px;
+  top: 150px;
+}
+
+#integrations {
+  position: absolute;
+  width: 94px;
+  height: 19px;
+  left: 293px;
+  top: 179px;
+}
+
+#clients {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  left: 293px;
+  top: 208px;
+}
+
+#cases {
   position: absolute;
   width: 50px;
   height: 19px;
   left: 489px;
   top: 92px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #e4e5ea;
 }
 
-.menu-content__right p {
-  margin-bottom: 10px;
+#mails {
+  position: absolute;
+  width: 212px;
+  height: 19px;
+  left: 489px;
+  top: 121px;
+}
+
+#certificates {
+  position: absolute;
+  width: 107px;
+  height: 19px;
+  left: 489px;
+  top: 150px;
+}
+
+#blog {
+  position: absolute;
+  width: 127px;
+  height: 19px;
+  left: 489px;
+  top: 179px;
+}
+
+#QA {
+  position: absolute;
+  width: 120px;
+  height: 19px;
+  left: 489px;
+  top: 208px;
 }
 
 .contact {
@@ -153,19 +198,52 @@
   color: #e4e5ea;
 }
 
-.contact-content div {
-  margin-bottom: 22px;
+#number-contacts {
+  position: absolute;
+  width: 143px;
+  height: 19px;
+  left: 998px;
+  top: 92px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #e4e5ea;
 }
 
-.logos img {
-  margin-left: 14px;
+#telegram-contacts {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1061px;
+  top: 132px;
+}
+
+#viber-contacts {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 1091px;
+  top: 132px;
+}
+
+#whatsapp-contacts {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1121px;
+  top: 131px;
 }
 
 .address {
   position: absolute;
   width: 277px;
   height: 19px;
-  right: 0px;
+  left: 864px;
   top: 171px;
 
   font-family: "Inter";
@@ -182,7 +260,7 @@
   position: absolute;
   width: 239px;
   height: 15px;
-  right: 0px;
+  left: 902px;
   top: 260px;
 
   font-family: "Montserrat";
@@ -190,8 +268,33 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  /* identical to box height */
 
   text-align: right;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+
+.confidential {
+  position: absolute;
+  width: 202px;
+  height: 15px;
+  left: 939px;
+  top: 280px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* light text */
 
   color: #e4e5ea;
 }

@@ -10,50 +10,78 @@ function Footer() {
         <div className="container">
           <div>
             <div className="footer-caption about">О компании</div>
-            <div className="about-content">
-              <p>Партнёрская программа</p>
-              <p>Вакансии</p>
-            </div>
+            <p id="partnership" className="menu-content">
+              Партнёрская программа
+            </p>
+            <p id="vacancies" className="menu-content">
+              Вакансии
+            </p>
           </div>
           <div>
             <div className="footer-caption menu">Меню</div>
-            <div className="menu-content__left">
-              <p>Расчёт стоимости</p>
-              <p>Услуги</p>
-              <p>Виджеты</p>
-              <p>Интеграции</p>
-              <p>Наши клиенты</p>
-            </div>
-            <div className="menu-content__right">
-              <p>Кейсы</p>
-              <p className="mails">Благодарственные письма</p>
-              <p>Сертификаты</p>
-              <p>Блог на Youtube</p>
-              <p>Вопрос / Ответ</p>
-            </div>
+
+            <p id="costing" className="menu-content">
+              Расчёт стоимости
+            </p>
+            <p id="services" className="menu-content">
+              Услуги
+            </p>
+            <p id="widgets-menu" className="menu-content">
+              Виджеты
+            </p>
+            <p id="integrations" className="menu-content">
+              Интеграции
+            </p>
+            <p id="clients" className="menu-content">
+              Наши клиенты
+            </p>
+
+            <p id="cases" className="menu-content">
+              Кейсы
+            </p>
+            <p id="mails" className="menu-content">
+              Благодарственные письма
+            </p>
+            <p id="certificates" className="menu-content">
+              Сертификаты
+            </p>
+            <p id="blog" className="menu-content">
+              Блог на Youtube
+            </p>
+            <p id="QA" className="menu-content">
+              Вопрос / Ответ
+            </p>
           </div>
           <div>
             <div className="footer-caption contact">Контакты</div>
-            <div className="contact-content">
-              <div>
-                <p>+7 555 555-55-55</p>
-              </div>
 
-              <div className=" logos">
-                <img src={telegram} title="HTML5" alt="program_img" />
+            <p id="number-contacts">+7 555 555-55-55</p>
 
-                <img src={viber} title="CSS3" alt="program_img" />
+            <img
+              id="telegram-contacts"
+              src={telegram}
+              title="HTML5"
+              alt="program_img"
+            />
 
-                <img src={whatsapp} title="Javascript" alt="program_img" />
-              </div>
+            <img
+              id="viber-contacts"
+              src={viber}
+              title="CSS3"
+              alt="program_img"
+            />
 
-              <p className=" address">Москва, Путевой проезд 3с1, к 902</p>
+            <img
+              id="whatsapp-contacts"
+              src={whatsapp}
+              title="Javascript"
+              alt="program_img"
+            />
 
-              <div>
-                <p className="copyright">©WELBEX 2022. Все права защищены.</p>
-                <p>Политика конфиденциальности</p>
-              </div>
-            </div>
+            <p className="address">Москва, Путевой проезд 3с1, к 902</p>
+
+            <p className="copyright">©WELBEX 2022. Все права защищены.</p>
+            <p className="confidential">Политика конфиденциальности</p>
           </div>
         </div>
       </footer>

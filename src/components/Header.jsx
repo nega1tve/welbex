@@ -12,9 +12,10 @@ function Header() {
           <div className="logo-section">
             <img id="logo" className="logo" src={logo} alt="logo_img" />
 
-            <div className="header-text">
-              крупный интегратор CRM в Росcии и ещё 8 странах
-            </div>
+            <p className="header-text">
+              крупный интегратор CRM
+              <br /> в Росcии и ещё 8 странах
+            </p>
           </div>
 
           <div className="menu-important">
