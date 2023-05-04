@@ -6,6 +6,7 @@
 
 body {
   background: #0e1014;
+  position: relative;
 
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -20,7 +21,7 @@ body {
   height: 980px;
 }
 
-.container {
+/* .container {
   max-width: 1141px;
   margin: 0 auto;
-}
+} */

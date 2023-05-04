@@ -18,30 +18,30 @@ function Header() {
           </div>
 
           <div className="menu-important">
-            <ul>
-              <li>Услуги</li>
-              <li>Виджеты</li>
-              <li>Интеграции</li>
-              <li>Кейсы</li>
-              <li>Сертификаты</li>
-            </ul>
+            <p>Услуги</p>
+            <p>Виджеты</p>
+            <p>Интеграции</p>
+            <p>Кейсы</p>
+            <p>Сертификаты</p>
           </div>
 
           <div className="number">+7 555 555-55-55</div>
 
-          <div className="logos">
-            <ul>
-              <li>
-                <img src={telegram} title="HTML5" alt="program_img" />
-              </li>
-              <li>
-                <img src={viber} title="CSS3" alt="program_img" />
-              </li>
-              <li>
-                <img src={whatsapp} title="Javascript" alt="program_img" />
-              </li>
-            </ul>
-          </div>
+          <img
+            id="telegram"
+            src={telegram}
+            title="telegram"
+            alt="program_img"
+          />
+
+          <img id="viber" src={viber} title="viber" alt="program_img" />
+
+          <img
+            id="whatsapp"
+            src={whatsapp}
+            title="whatsapp"
+            alt="program_img"
+          />
         </div>
       </header>
     </>

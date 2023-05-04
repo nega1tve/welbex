@@ -1,48 +1,96 @@
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 46px 150px 0 0;
-}
-
-.logo-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: absolute;
+  width: 1140px;
+  height: 73px;
+  left: 150px;
+  top: 46px;
 }
 
 #logo {
-  width: 100%;
-  left: 0.17%;
-  right: 0.99%;
-  top: 0%;
-  bottom: 5.74%;
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  left: 0px;
+  top: 11px;
 }
 
 .header-text {
-  font-family: Montserrat;
-  font-size: 10px;
-  font-weight: 300;
-  line-height: 12px;
-  letter-spacing: 0em;
-  margin-top: 10px;
-
+  position: absolute;
   width: 165px;
   height: 24px;
   left: 0px;
   top: 45px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #e4e5ea;
 }
 
-ul {
-  list-style: none;
+.menu-important {
+  position: absolute;
+  width: 503px;
+  height: 19px;
+  left: 192px;
+  top: 15px;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-li {
+.menu-important p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+
+  display: inline-block;
   margin-right: 30px;
 }
 
-.logos li {
-  margin-right: 34px;
+.number {
+  position: absolute;
+  width: 143px;
+  height: 19px;
+  left: 832px;
+  top: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #e4e5ea;
+}
+
+#telegram {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1022px;
+  top: 14px;
+}
+
+#viber {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 1072px;
+  top: 14px;
+}
+
+#whatsapp {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1122px;
+  top: 13px;
 }
