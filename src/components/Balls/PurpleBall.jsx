@@ -2,15 +2,6 @@ import React from "react";
 
 function PurpleBall() {
   return (
-    // <div
-    //   style={{
-    //     position: "relative",
-    //     width: "320px",
-    //     height: "445px",
-    //     top: "55px",
-    //     overflow: "hidden",
-    //   }}
-    // >
     <div
       style={{
         position: "absolute",

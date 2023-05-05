@@ -49,19 +49,14 @@
   left: 293px;
   top: 55px;
 
-  /* маленькие заголовки */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
-  /* dark gray */
 
   color: #656566;
 }
@@ -161,20 +156,15 @@
   left: 1055px;
   top: 55px;
 
-  /* маленькие заголовки */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   text-align: right;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
-  /* dark gray */
 
   color: #656566;
 }
@@ -192,8 +182,6 @@
   font-size: 16px;
   line-height: 19px;
   text-align: right;
-
-  /* light text */
 
   color: #e4e5ea;
 }
@@ -268,11 +256,8 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: right;
-
-  /* light text */
 
   color: #e4e5ea;
 }
@@ -289,12 +274,9 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: right;
   text-decoration-line: underline;
-
-  /* light text */
 
   color: #e4e5ea;
 }
@@ -320,12 +302,9 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
 
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* dark gray */
 
     color: #656566;
   }
@@ -342,9 +321,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-    /* light text */
 
     color: #e4e5ea;
   }
@@ -377,12 +353,9 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
 
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
-    /* dark gray */
 
     color: #656566;
   }
@@ -447,9 +420,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-    /* light text */
 
     color: #e4e5ea;
   }
@@ -466,9 +436,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-    /* light text */
 
     color: #e4e5ea;
   }

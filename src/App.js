@@ -1,4 +1,3 @@
-import "./App.css";
 import PinkBall from "./components/Balls/PinkBall";
 import PurpleBall from "./components/Balls/PurpleBall";
 import RedBall from "./components/Balls/RedBall";
@@ -7,24 +6,6 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import RedLights from "./components/RedLights";
 import React, { useState, useEffect } from "react";
-
-// function App() {
-//   const [showLights, setShowLights] = useState(false);
-
-//   return (
-//     <>
-
-//       <Header />
-//       <Main />
-//       <Footer />
-
-//       <RedLights />
-//       <RedBall />
-//       <PurpleBall />
-//       <PinkBall />
-//     </>
-//   );
-// }
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -55,8 +36,6 @@ function App() {
           <Main />
           <Footer />
           <RedLights />
-          {/* <RedBall /> */}
-          {/* <PurpleBall /> */}
         </>
       )}
     </>
