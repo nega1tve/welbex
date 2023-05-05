@@ -1,4 +1,7 @@
-import React from "react";
+import RedBall from "./Balls/RedBall";
+import PurpleBall from "./Balls/PurpleBall";
+import LittleRedBall from "./Balls/LittleRedBall";
+import YellowBall from "./Balls/YellowBall";
 
 const RedLights = () => {
   if (window.innerWidth > 320) {
@@ -32,7 +35,29 @@ const RedLights = () => {
     );
   } else {
     return (
-      <>
+      <div
+        style={{
+          position: "relative",
+          width: "320px",
+          height: "445px",
+          top: "55px",
+          overflowX: "hidden",
+        }}
+      >
+        <div
+          style={{
+            position: "absolute",
+            width: "320px",
+            height: "445px",
+            left: "0px",
+            top: "0px",
+            background:
+              "radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%)",
+            opacity: 0.8,
+            filter: "blur(7.5px)",
+            zIndex: -1,
+          }}
+        />
         <div
           style={{
             position: "absolute",
@@ -72,7 +97,11 @@ const RedLights = () => {
             zIndex: -1,
           }}
         />
-      </>
+        <RedBall />
+        <PurpleBall />
+        <LittleRedBall />
+        <YellowBall />
+      </div>
     );
   }
 };

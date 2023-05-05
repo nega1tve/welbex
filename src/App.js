@@ -54,8 +54,9 @@ function App() {
           <Header />
           <Main />
           <Footer />
-          {/* <RedLights /> */}
-          <RedBall />
+          <RedLights />
+          {/* <RedBall /> */}
+          {/* <PurpleBall /> */}
         </>
       )}
     </>
